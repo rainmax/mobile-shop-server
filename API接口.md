@@ -1,7 +1,7 @@
 ### 轮播图模块
 
 
-获取轮播图 http://localhost:3000/api/getcover
+#### 获取轮播图 http://localhost:3000/api/getcover
 
 接口示例：
 ```javascript
@@ -9,13 +9,14 @@
 ```
 
 ### 新闻模块
-分页获取新闻[GET]  http://localhost:8888/api/getnews
+#### 分页获取新闻[GET]  http://localhost:8888/api/getnews
 
  参数|类型|说明|
  -|-|- 
-pageIdx|Number|表示获取第几页的数据
-接口示例：
+pageIdx|Number|表示获取第几页的数据|
 
+
+接口示例：
 ```javascript
 {
     "status":1,
