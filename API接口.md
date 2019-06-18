@@ -32,10 +32,13 @@ pageIdx|Number|表示获取第几页的数据|
 }
 ```
 
-根据新闻id查询新闻详情[GET]http://localhost:8888/api/getnewdetail
+
+#### 根据新闻id查询新闻详情[GET]http://localhost:8888/api/getnewdetail
+
 参数|类型|说明|
  -|-|- 
 newsId|Number|新闻的ID
+
 接口示例：
 ```javascript
 {
@@ -51,11 +54,13 @@ newsId|Number|新闻的ID
 }
 ```
 
-获取新闻评论[GET]http://localhost:8888/api/getnewscom
+#### 获取新闻评论[GET]http://localhost:8888/api/getnewscom
+
 参数|类型|说明|
  -|-|- 
 newsId|Number|新闻的ID|
-pageIdx|Number|评论的页码|
+pageIdx|Number|评论的页码
+
 接口示例：
 ```javascript
 {
@@ -65,11 +70,12 @@ pageIdx|Number|评论的页码|
 }
 ```
 
-提交新闻评论[POST]http://localhost:8888/api/addnewscom
+#### 提交新闻评论[POST]http://localhost:8888/api/addnewscom
 参数|类型|说明|
  -|-|- 
 newsId|Number|新闻的ID|
 body|Object|提交的评论对象信息|
+
 接口示例：
 ```javascript
 {
@@ -80,9 +86,10 @@ body|Object|提交的评论对象信息|
 
 ### 图片模块
 
-获取图片类型[GET]http://localhost:8888/api/getphotypes
+#### 获取图片类型[GET]http://localhost:8888/api/getphotypes
 参数|类型|说明|
  -|-|- 
+
 接口示例：
 ```javascript
 {
@@ -91,11 +98,12 @@ body|Object|提交的评论对象信息|
 }
 ```
 
-分页获取对应类型的图片信息[GET]http://localhost:8888/api/getphos
+#### 分页获取对应类型的图片信息[GET]http://localhost:8888/api/getphos
 参数|类型|说明|
  -|-|- 
  pageIdx|Number|图片的页码
  type|String|图片的类型
+
  Note:如果type为空则表示获取所有类型的图片
 
 接口示例：
@@ -110,10 +118,12 @@ body|Object|提交的评论对象信息|
 }
 ```
 
-根据图片ID获取详细信息[GET]http://localhost:8888/api/getphodetail
+#### 根据图片ID获取详细信息[GET]http://localhost:8888/api/getphodetail
+
 参数|类型|说明|
  -|-|- 
  phoId|Number|图片的ID
+
 接口示例：
 ```javascript
 {
@@ -128,11 +138,13 @@ body|Object|提交的评论对象信息|
 ```
 
 
-根据图片ID获取评论[GET]http://localhost:8888/api/getphocom
+#### 根据图片ID获取评论[GET]http://localhost:8888/api/getphocom
+
 参数|类型|说明|
  -|-|- 
  phoId|Number|图片的ID
  pageIdx|Number|评论的页码
+ 
 接口示例：
 ```javascript
 {
@@ -144,10 +156,12 @@ body|Object|提交的评论对象信息|
 ```
 
 ### 商品模块
-分页获取商品列表信息[GET]http://localhost:8888/api/getgod
+#### 分页获取商品列表信息[GET]http://localhost:8888/api/getgod
+
 参数|类型|说明|
  -|-|- 
  pageIdx|Number|商品的页码
+
 接口示例：
 ```javascript
 {
@@ -169,10 +183,12 @@ body|Object|提交的评论对象信息|
 }
 ```
 
-获取商品详细信息[GET]http://localhost:8888/api/getgoddetail
+#### 获取商品详细信息[GET]http://localhost:8888/api/getgoddetail
+
 参数|类型|说明|
  -|-|- 
  godId|Number|商品的ID
+ 
 接口示例：
 ```javascript
 {
