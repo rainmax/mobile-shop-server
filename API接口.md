@@ -13,7 +13,7 @@
 
  参数|类型|说明|
  -|-|- 
-pageIdx|Number|表示获取第几页的数据|
+pageIdx|Number|表示获取第几页的数据
 接口示例：
 
 ```javascript
@@ -34,7 +34,7 @@ pageIdx|Number|表示获取第几页的数据|
 根据新闻id查询新闻详情[GET]http://localhost:8888/api/getnewdetail
 参数|类型|说明|
  -|-|- 
-newsId|Number|新闻的ID|
+newsId|Number|新闻的ID
 接口示例：
 ```javascript
 {
@@ -77,7 +77,7 @@ body|Object|提交的评论对象信息|
 }
 ```
 
-###图片模块
+### 图片模块
 
 获取图片类型[GET]http://localhost:8888/api/getphotypes
 参数|类型|说明|
@@ -142,7 +142,7 @@ body|Object|提交的评论对象信息|
 }
 ```
 
-###商品模块
+### 商品模块
 分页获取商品列表信息[GET]http://localhost:8888/api/getgod
 参数|类型|说明|
  -|-|- 
